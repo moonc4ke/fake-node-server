@@ -1,0 +1,6 @@
+services:
+  - name: node-api
+    type: web
+    envVars:
+      - key: PORT
+        value: "3000"
